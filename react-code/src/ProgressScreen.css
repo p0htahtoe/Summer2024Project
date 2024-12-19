@@ -1,0 +1,72 @@
+/* General container styles */
+.progress-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header section styles */
+.progress-header {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.progress-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.progress-subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+}
+
+.progress-overview {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #777;
+}
+
+/* Main section styles */
+.progress-main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Progress item styles */
+.progress-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progress-item-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.progress-item-status {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Status-based colors */
+.progress-item.complete {
+  background-color: #e6ffe6;
+  border-color: #66cc66;
+}
+
+.progress-item.in-progress {
+  background-color: #fff9e6;
+  border-color: #ffcc66;
+}
+
+.progress-item.pending {
+  background-color: #ffe6e6;
+  border-color: #ff6666;
+}

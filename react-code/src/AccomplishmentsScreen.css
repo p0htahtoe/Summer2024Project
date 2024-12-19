@@ -1,0 +1,42 @@
+/* General container styles */
+.accomplishment-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header section styles */
+  .accomplishment-header {
+    margin-bottom: 20px;
+  }
+  
+  .accomplishment-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Main section styles */
+  .accomplishment-main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Card (button) styles */
+  .accomplishment-card {
+    padding: 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Card hover effect */
+  .accomplishment-card:hover {
+    background-color: #0056b3;
+  }
+  
