@@ -4,6 +4,9 @@
 
 ```
 npm install -g expo-cli
+
+npm install @react-navigation/native
+npm install @react-navigation/stack
 ```
 
 - Install Expo Client in your phone (from app store)
