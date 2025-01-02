@@ -68,7 +68,7 @@ TODO write and pass integration tests
 TODO code formatting
 TODO integration testing
 
-# (Documentation) first draft
+# App documentation and roadmap
 
 Problems it solves:
 
@@ -131,13 +131,15 @@ TODO:
     - shows God's given identity
     - shows who is in the same forge 
 - create a view of the logs of the forge team
+- make actions SMART (measureable, timed, doable, ...). Add a deadline for each. Allow for habits with defined frequency.
+- Today's assignments
 
 ## 2. Short term future
 
-TODO:
-- make actions SMART (measureable, timed, doable, ...). Add a deadline for each. Allow for habits with defined frequency.
 - week overview
-- Today's assignments
+- reminders
+- block certain apps?
+- ?
 
 
 ## 3. Long term future ?
