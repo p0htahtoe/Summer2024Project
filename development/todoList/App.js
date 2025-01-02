@@ -1,21 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// App.js
+import React from 'react';
+import TodoList from './components/TodoList';
 
-export default function Welcome() {
+export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Hello world!</Text>
-      <Text>Very noice mate, init?</Text>
-      <StatusBar style="auto" />
-    </View>
+    <TodoList />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
