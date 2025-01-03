@@ -27,6 +27,8 @@ Summer2024Project/
     vite.config.ts - Configuration file for Vite.
     README.md - Documentation file describing the project, its structure, and setup instructions.
 
+**Note:** under /development, I'm testing to develop using expo.
+
 # Environment Setup
 
 1. Install `node.js`: https://nodejs.org/en/download/package-manager using `nvm`.
